@@ -72,3 +72,42 @@ main {
   padding-left: 2px;
   cursor: pointer;
 }
+
+.survival h1{
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 70px;
+letter-spacing: 2px;
+padding-top: 68px;
+color: #CD6326;
+}
+
+.survival p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27.5px;
+    padding-top: 19px;
+    width: 280px;
+    color: #F7F7F7;
+    padding-bottom: 29.5px
+}
+.survival__button{
+    border:none;
+    width: 160px;
+    height: 60px;
+    background: #CD6326;
+    border-radius: 5px;
+    color: #F7F7F7;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    text-align: center;
+    cursor: pointer;
+}
