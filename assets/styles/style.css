@@ -21,6 +21,7 @@
 
 body {
     max-width: 1440px;
+    min-width: 375px;
     margin:auto;
 }
 .wraper {
@@ -111,8 +112,14 @@ body {
 }
 .header__signin:hover{
     opacity: 1;
-    background-color:  #CD6326;
+    background-color:  #d26024;
 }
+.header__signin:active{
+  background-color: #945508;
+}
+.header__signin:focus{
+   outline: none;
+  }
 .header__search{
   padding-left: 2px;
   cursor: pointer;
@@ -123,28 +130,30 @@ body {
     opacity: 1;
   }
 
-.survival h1{
-
+.survival__title{
 font-family: Open Sans;
 font-style: normal;
 font-weight: normal;
 font-size: 48px;
 line-height: 70px;
 letter-spacing: 2px;
-padding-top: 68px;
 color: #CD6326;
+padding-left: 1px;
+    padding-top: 102px;
+    margin: 0;
 }
 
-.survival p {
+.survival__text {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 27.5px;
-    padding-top: 19px;
+    padding-top: 50px;
     width: 280px;
     color: #F7F7F7;
-    padding-bottom: 29.5px
+    padding-bottom: 50.5px;
+    margin:0
 }
 .survival__button{
     border:none;
@@ -161,7 +170,15 @@ color: #CD6326;
     text-align: center;
     cursor: pointer;
 }
-
+.survival__button:hover{
+   background-color: #e79027;
+}
+.survival__button:active{
+    background-color: #8f5613;
+ }
+ .survival__button:focus{
+    outline: none;
+ }
 
 @media (max-width:1200px){
     .wraper{
