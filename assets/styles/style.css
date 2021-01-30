@@ -29,7 +29,7 @@ body {
     margin:auto
 }
 .wraper-header {
-    background-image: url("../img/Rectangle.png");
+    background-image: url("../img/fox.png");
     height: 780px;
     object-fit: cover;
     background-position: center;
@@ -105,10 +105,15 @@ body {
     cursor: pointer;
     background-color: transparent;
     font-size: 23px;
-    line-height: 27px;
+    line-height: 26px;
     color: #F7F7F7;
     opacity: 90%;
     transition: 0.05s ease-in;
+    justify-content: center;
+    padding: 10px 0 0 0;
+}
+.header__item .header__signin:hover{
+    text-decoration: none;
 }
 .header__signin:hover{
     opacity: 1;
@@ -209,7 +214,7 @@ padding-left: 1px;
     max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr minmax(min-content,1020px) 1fr;
-    margin-bottom: 239px;
+    margin-bottom: 240px;
     grid-template-rows: 1fr;
 }
 .slider{
@@ -300,9 +305,9 @@ padding-left: 1px;
 .notified-form {
     display: flex;
     justify-content: center;
+    margin-bottom: 239px;
 }
 .notified-form__email{
- 
     padding-left: 15px;
     padding-top: 4px;
     width: 524px;
@@ -336,6 +341,96 @@ padding-left: 1px;
     align-items: center;
     text-align: center;
     color: #F7F7F7; 
+    cursor: pointer;
+}
+.notified-form__email:focus{
+    outline: none;
+}
+.notified-form__submit:focus{
+    outline: none;
+}
+.notified-form__submit:hover{
+    background-color: #e79027;
+ }
+ .notified-form__submit:active{
+     background-color: #8f5613;
+}
+ 
+
+.wraper-footer{
+    background-image: url("../img/footer.png");
+    height: 360px;
+   
+}
+.footer{
+    display: flex;
+    padding-top: 131px;
+}
+.footer__list{
+    margin: 0 124px 0 0;
+    padding: 20px 0 0 138px;
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    list-style: none;
+}
+.footer__list-social{
+ padding:29px 0 0 0 ;
+    margin: 0;
+    list-style: none;
+    display: flex
+}
+.footer__list-social li{
+    margin-right: 27px;
+}
+.footer__list-social li:last-child{
+    margin-right: 0;
+ }
+.footer__list-social-fb {
+    background-image: url("../img/fb.svg");
+    width: 40px;
+    height: 40px;
+}
+.footer__list-social-inst {
+    background-image: url("../img/inst.svg");
+    width: 40px;
+    height: 40px;
+}
+.footer__list-social-p {
+    background-image: url("../img/p.svg");
+    width: 40px;
+    height: 40px;
+}
+.footer__list-social-telegram {
+    background-image: url("../img/telegram.svg");
+    width: 40px;
+    height: 40px;
+}
+.footer__nav{
+    display: flex
+}
+.footer__list li{
+    margin-right: 87.8px;
+}
+.footer__list li:last-child{
+    margin-right: 0;
+}
+.footer__list li a{
+    color: #F7F7F7;
+    text-decoration: none;
+}
+.footer__item:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+.footer__list-social li{
+    cursor: pointer;
+}
+.footer__list-social li:hover{
+    transform:scale(1.1)
 }
 
 @media (max-width:1200px){
@@ -370,6 +465,49 @@ padding-left: 1px;
     .slider__item-title{
         font-size: 17px;
     }
+    .latest-articles{
+        height: 900px;
+    }
+    .footer{
+       flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .header__logo{
+        margin-bottom: 10px;
+    }
+    .footer__list{
+        flex-direction: column; 
+        padding: 0 10px;
+        margin: 0;
+        flex: 80%;
+    }
+    .footer__list li{
+        margin:0;
+    }
+    .footer__list-social{
+        flex: 40%;
+    }
+    .footer__list-social {
+       margin:0
+    }
+  
+    .footer__item{
+        margin:0
+    }
+    .footer__nav{
+        display:flex;
+        width: 80%;
+        justify-content: space-around;
+    }
+    .footer__list-social{
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0 15px;
+        flex-wrap: wrap;
+    }
+  
 }
 
 @media (max-width:850px){
@@ -398,6 +536,17 @@ padding-left: 1px;
     .slider__item-title{
         font-size: 15px;
     }
+    .latest-articles{
+        height: 800px;
+    }
+    .notified-form{
+    max-width: 800px;
+    padding: 0 20px;
+    }
+    .notified-form__email{
+        width: 50%;
+    }
+  
 }
 
 @media (max-width:650px){
