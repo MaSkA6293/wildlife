@@ -295,8 +295,48 @@ padding-left: 1px;
     line-height: 40px;
     text-align: center;
     color: #333333;
+    margin-bottom: 59px;
 }
-
+.notified-form {
+    display: flex;
+    justify-content: center;
+}
+.notified-form__email{
+ 
+    padding-left: 15px;
+    padding-top: 4px;
+    width: 524px;
+    height: 56px;
+    background-color: #CCCCCC;
+    font-family: Roboto;
+    color: #666666;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #666666;
+    letter-spacing: 1.3px;
+    border-radius: 5px 0px 0px 5px;
+}
+.notified-form__submit{
+    width: 120px;
+    height: 63px;    
+    background: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    font-family: Open Sans;
+    padding: 2px 0 0 28.5px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24.5px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F7F7F7; 
+}
 
 @media (max-width:1200px){
     .wraper{
