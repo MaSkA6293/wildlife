@@ -290,6 +290,8 @@ padding-left: 1px;
 .latest-articles__vektor-right {
     align-self: center;
     justify-self: right;
+    max-width: 29px;
+    max-height: 38.98px;
     padding-top: 10px;
 }
 .get-notified__notify{
